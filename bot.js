@@ -137,7 +137,7 @@ bot.on('afterload', function(){
   // console.log(bot.config.switches);
   // bot.config.switches.backupdb = true
   if(bot.config.switches.backupdb){ //config.switches.backupdb
-    util.firebase.backupDBfile(bot.db,bot,bot.config.guild.backup,{filenameprefix : 'mango_db_', messageprefix : '**Mango Backup DB**'}).then(snap => {
+    util.firebase.backupDBfile(bot.db,bot,bot.config.ready.backupDB,{filenameprefix : 'mango_db_', messageprefix : '**Mango Backup DB**'}).then(snap => {
       // console.log('DB',bot.db);
       basic.updateProfiles(bot,snap.profiles)
       // bot.cache.servers = new FirebaseCache(bot.db.child('servers'),snap.servers);
