@@ -1,0 +1,120 @@
+{
+  "updated" : "29/01/2018",
+  "articles" : {
+    "5" : {
+      "tags" : ["federado"],
+      "title" : "Los jugadores federados",
+      "text" : "**1.** Cualquier jugador registrado/inscrito en una competición pasa a ser jugador federado por la FED.\n**2.** Los jugadores federados son tales, y se actualiza su federación, al término del Roster Lock (ver Artículo 8) previo a cada competición.\n**3.** Los jugadores sólo puede jugar en el equipo en el que están inscritos, no pudiendo jugar en otro equipo aunque hayan abandonado el primero hasta la actualización de equipos en el siguiente Roster Lock.\n**4.** Los jugadores sólo podrán usar su Steam main account para las competiciones FED, quedando totalmente prohibido el uso de smurfs (ver Artículo 16. Punto 5).\n**5.** Los jugadores deberán usar su nick de jugador federado en cada partida oficial (ver Artículo 14. Punto 4). Asimismo, utilizar el Tag del equipo."
+    },
+    "6" : {
+      "tags" : ["suplentes","standins"],
+      "title" : "Los jugadores suplentes",
+      "text" : "**1.** Cualquier jugador no registrado al término del Roster Lock podrá competir como jugador suplente.\n**2.** Los equipos podrán utilizar, como máximo, a dos jugadores suplentes por partido.\n**3.** Un jugador suplente sólo podrá jugar en un equipo por competición; a excepción de la Liga FED donde podrá jugar en un equipo distinto por división."
+    },
+    "7" : {
+      "tags" : ["equipos"],
+      "title" : "Los equipos",
+      "text" : "**1.** Un equipo contará por 5 jugadores federados registrados al término del Roster Lock.\n**2.** Además del Roster Lock FED, los equipos deben estar inscritos en la web que hospede la concreta competición, o bien el registro correspondiente que señale la Administración de la FED. \n**3.** Un equipo debe tener configurado correctamente su nombre, logo y tag en el cliente de Dota2.\n**4.** Los equipos deberán notificar a la administración la utilización de un jugador suplente."
+    },
+    "8" : {
+      "tags" : ["roster lock"],
+      "title" : "Roster Lock FED",
+      "text" : "A lo largo del año competitivo FED, y de su circuito, se abrirán periodos de registro y actualización de equipos y jugadores llamados Roster Lock.\nLa FED anunciará por sus medios de comunicación los plazos de Roster Lock.\nEn cualquiera de los casos, los equipos interesados deberán enviar un e-mail al correo de la federación indicando los datos pertinentes.\n\na) En el correo deberá indicarse nombre del equipo y medio de contacto con el mismo (web, twitter, e-mail).\nb) Se especificará el nick e ID de steam de cada jugador, y se relacionarán con su posición/rol dentro del equipo.\n\nUna vez finalizado el plazo dado, se efectuará el Roster Lock para cada equipo y jugador hasta el siguiente periodo de Roster Lock."
+    },
+    "9" : {
+      "tags" : ["prepartida"],
+      "title" : "Prepartida",
+      "text" : "Normativa a tener en cuenta antes de jugar un partido oficial del circuito competitivo FED; el cual tendrá un día y hora (PlayDay) establecido por defecto.\n\n**1.** En caso de que la normativa específica de cada torneo lo especifique, los equipos podrán modificar el PlayDay siempre y cuando ambos estén conformes con ese cambio y así lo reflejen en el chat específico de la plataforma que hostee la competición.\n**2.** Todo lobby de competición que tenga ticket aprobado por Valve, será creado por administradores FED. Serán los encargados, 15 minutos antes de la hora de partido, de indicar los datos (nombre y contraseña) a través del mencionado chat específico.\n**3.** Un vez dentro de la sala, los equipos deberán colocarse en el lado correspondiente según la normativa específica de cada torneo y así como lo indique el admin-hoster. Y, también, poner el nombre y tag del equipo."
+    },
+    "10" : {
+      "tags" : ["durante partida"],
+      "title" : "Durante la partida",
+      "text" : "__**Pausas**__\n**a)** No se pausará la fase de Picks/Bans, salvo desconexión del drafter.\n**b)** Ambos equipos dispondrán de un número ilimitado de pausas, siempre que la duración de las mismas sea aceptable; no sean continuas ni recurrentes.\n**c)** En caso de presencia de un administrador, este decidirá el tiempo máximo y duración de las pausas.\n**d)** Despausar requiere la conformidad del equipo contrario. Despausar sin previo aviso se considerará falta (Artículo 14. Punto 2).\n\n__**Desconexiones**__\n**a)** La partida deberá pausarte ante una desconexión de cualquier jugador.\n**b)** La partida no podrá reanudarse hasta pasados 10 minutos de espera. En caso de que se sobrepase ese límite, o bien se comunique la imposibilidad de reconectar del jugador que sufrió la desconexión, se podrá continuar la partida sin ese jugador que no podrá ser sustituido por otro ni podrá reincorporarse a la partida una vez se haya reanudado.\n**c)** No será válida la reanudación de una partida en la que falten dos jugadores del mismo equipo. Si, pasados los 10 minutos de espera, uno de los equipos no tiene, al menos, 4 jugadores, ganará de manera automática el equipo contrario."
+    },
+    "11" : {
+      "tags" : ["final partida"],
+      "title" : "Finalización de una partida",
+      "text" : "Una partida finaliza en los siguientes casos:\n**1.** Cuando un equipo destruya el ancient rival.\n**2.** Cuando un equipo se rinda al escribir ‘gg’ por all chat y la cuenta llegue a 0.\n**3.** Cuando un equipo tenga a dos o más jugadores desconectados, en cuyo caso deberá rendirse cantando ‘gg’.\n**4.** Cuando algún jugador o equipo cometa una falta que el administrador sancione con la finalización de la partida y la victoria del equipo rival."
+    },
+    "12" : {
+      "tags" : ["postpartida"],
+      "title" : "Postpartida",
+      "text" : "**1.** El equipo ganador deberá subir, en un periodo razonable de tiempo a la web que hostee la competición, una captura/screenshot del Overview final de la partida donde se vea claramente el resultado de la misma.\n**2.** Si algún equipo o jugador tuviese que notificar algún incidente relacionado con la partida, tendrá un plazo de 3 días para hacerlo. En cuyo caso, lo hará escribiendo un correo al e-mail de la FED explicando al detalle el incidente y aportando el mayor número posibles de pruebas que sostengan la queja."
+    },
+    "13" : {
+      "tags" : ["faltas"],
+      "title" : "Las Faltas",
+      "text" : "Las faltas se distinguirán entre infracciones realizadas por un jugador o por un equipo.\nLas faltas se dividirán en ***Faltas Leves, Faltas Graves y Faltas Muy Graves*** que conllevarán sus correspondientes sanciones."
+    },
+    "14" : {
+      "tags" : ["faltas leves"],
+      "title" : "Las faltas Leves",
+      "text" : "Son faltas leves:\n**1.** Pausar una partida sin razón aparente, de manera continuada. \n**2.** Despausar una partida sin previo aviso.\n**3.** Mofas y comentarios que tengan como intención distraer y/o lograr la pérdida de concentración de un jugador o del equipo contrario.\n**4.** No tener un nick reconocible respecto al utilizado en el registro del Roster Lock.\n**5.** Un fake gg; siempre y cuando no se haya producido en un momento irrelevante de la partida (ej: “gg” por all chat después de una kill).\n**6.** No notificar a la administración el uso de un jugador suplente.\n**7.** No especificar un cambio de hora y día de partido (PlayDay) en el chat correspondiente de la competición.\n**8.** Cuando un equipo no utiliza el nombre y logo del equipo creado en el cliente de Dota2.\n**9.** Cuando un jugador no tiene el tag del equipo.\n**10.** Cuando un equipo que gana una partida no actualiza el resultado y/o sube captura del Overview final de partida.\n**11.** Cualquier otra falta que la administración considere como tal."
+    },
+    "15" : {
+      "tags" : ["faltas graves"],
+      "title" : "Las faltas Graves",
+      "text" : "Son faltas graves:\n**1.** La repetición de una falta leve ya sancionada.\n**2.** Cuando un equipo utiliza 3 o más jugadores suplentes en una partida.\n**3.** Cuando un jugador suplente juega en dos equipos distintos dentro de la misma competición o división de Liga FED.\n**4.** Mofas, insultos y vejaciones graves que tengan como fin ofender y menospreciar a un jugador o equipo rival.\n**5.** Cuando un jugador perjudica intencionadamente a su propio equipo, con conductas tales como: morir a propósito; suicidar su courier; destruir items, etc.\n**6.** Facilitar cualquier tipo de información que desequilibre el principio de igualdad. Se sancionará al que provee la información, sea jugador federado o no.\n**7.** Cualquier otra falta que la administración considere como tal."
+    },
+    "16" : {
+      "tags" : ["faltas muy graves"],
+      "title" : "Las faltas Muy Graves",
+      "text" : "Son faltas muy graves:\n**1.** La repetición de una falta grave ya sancionada.\n**2.** Derrota intencionada de un equipo (ej. 322).\n**3.** Inactividad reiterada por parte de un equipo, al no presentarse a 3 partidos.\n**4.** Suplantación de la cuenta de juego de cualquier jugador, con o sin consentimiento del jugador suplantado. Asimismo, la utilización de cuenta smurf.\n**5.** Uso de trucos de cualquier tipo.\n**6.** Cualquier otra falta que la administración considere como tal."
+    },
+    "17" : {
+      "tags" : ["sanciones"],
+      "title" : "Las Sanciones",
+      "text" : "* Las sanciones se distinguirán entre penalizaciones a un jugador o a un equipo, dependiendo de la naturaleza de la falta.\n* Las sanciones dividirán en Amonestaciones, Sanciones Graves y Expulsiones.\n* Las sanciones serán notificadas públicamente por los medios de comunicación de la FED.\n* Cualquier jugador y/o equipo podrá recurrir una sanción al Comité Sancionador, a excepción de las amonestaciones. Dicho recurso deberá presentarse por e-mail en un plazo de 24h después de la publicación de la sanción. Estando en ese periodo de tiempo, el Comité Sancionador revisará el caso y publicará su última y definitiva resolución en un plazo máximo de 48 horas de recibir el recurso."
+    },
+    "18" : {
+      "tags" : ["amonestaciones"],
+      "title" : "Las Amonestaciones",
+      "text" : "**1.** Las faltas Leves se sancionan con amonestaciones, sin pena directa."
+    },
+    "19" : {
+      "tags" : ["sanciones graves"],
+      "title" : "Las Sanciones Graves",
+      "text" : "Las faltas Graves se sancionan:\n**1.** __A equipos:__ con la pérdida del partido donde se cometió la falta grave, y las consecuencias que eso conlleve.\n**2.** __A jugadores:__ con la imposibilidad de jugar, por el número de partidos que decida el Comité Sancionador."
+    },
+    "20" : {
+      "tags" : ["expulsiones"],
+      "title" : "Las Expulsiones",
+      "text" : "Las faltas Muy Graves se sancionan:\n**1.** __A equipos:__ con la pérdida de todos los partidos en la competición vigente, con carácter retroactivo. Asimismo, si el Comité de Sancionador lo determinase, con la incapacidad de jugar en el Circuito FED por la duración que se especificase. Si el equipo sancionado hiciese disband, la sanción perdurará a nivel individual en cada uno de sus jugadores hasta su término.\n**2.** __A jugadores:__ con la expulsión de la competición vigente. Asimismo, con la posibilidad de aumentar la sanción incapacitando jugar en el Circuito FED por un plazo determinado por el Comité Sancionador."
+    },
+    "21" : {
+      "tags" : ["consideraciones generales"],
+      "title" : "Consideraciones generales",
+      "text" : "Como ya se especificó al final del Artículo 2, cada norma específica de las competiciones se desarrollará en su plenitud en el reglamento de las mismas. Este capítulo sirve para normativizar aspectos que tienen que tenerse en cuenta de cara a cada competición o entre ellas.\n\nAsimismo, los siguientes artículos se podrán modificar con las sucesivas ediciones de las competiciones del Circuito Competitivo FED."
+    },
+    "22" : {
+      "tags" : ["liga"],
+      "title" : "Liga FED, sus divisiones y sus equipos",
+      "text" : "Para el buen funcionamiento de la temporadas de Liga, y persiguiendo el objetivo de ser una competición continuista y de calidad, se considerarán los siguientes puntos.\n1.Cada división de Liga FED estará formada por un mínimo de 7 equipos y un máximo de 13.\n2.A partir de 1ª división, y si así lo determinase la administración, los equipos se dividirán en grupos de divisiones (ej: dos 2ªs divisiones; dos 3ª divisiones, tres 3ª divisiones,...).\n3. Con cada nueva temporada, los equipos mantendrán la plaza de división conseguida en la temporada anterior, después de los Ascensos y Descensos directos y de los Play-Offs.\n4. La administración podrá ascender a equipos, en caso de que se hubiesen disbands que dejasen plazas libres en divisiones superiores, teniendo en cuenta los méritos de los equipos y jugadores atendiendo a su posición en el ranking de equipos de ese año (Artículo 26. Puntos del Circuito FED).\n5. La plaza de división pertenecen al equipo que la consiguió en la temporada anterior, entendiéndose como 3/5 partes del grupo de jugadores que obtuvieron esa plaza.\n5.1 La plaza de división podrá pertenecer a un número inferior a 3/5 del grupo en caso de que la mayoría de jugadores no requieran la plaza; pertenezcan a otros equipos y/o dejen de ser jugadores federados.\n5.2 Los equipos NO perderán su plaza por cambio de nombre, siempre y cuando éste sea notificado a la administración en el siguiente periodo de Roster Lock."
+    },
+    "23" : {
+      "tags" : ["copa"],
+      "title" : "Copa FED",
+      "text" : "La Copa FED estará regulada por las siguientes consideraciones:\n**1.** La jugarán 16 equipos ligueros que hayan participado en la última temporada de Liga FED antes de la Copa FED (1ª temporada del año).\n**2.** Los 8 equipos de 1ª División FED, después de los Play-Off, estarán Invitados Directamente al torneo sin realizar clasificatorio."
+    },
+    "24" : {
+      "tags" : ["lie"],
+      "title" : "LIE anual.",
+      "text" : "La LIE anual es una competición de carácter individual y que se jugará un día a la semana en salas creadas por la administración para tal fin, y que se regulará con las siguientes observaciones generales:\n**1.** Los jugadores que participen en ella obtendrán puntos tanto por victorias (3 puntos) como por partidas jugadas (1 punto), reflejándose una clasificación pública tanto en la web como en discord.\n**2.** Esta puntuación individual de la LIE tendrá su conversión en puntos del Circuito FED (Artículo 26).\n**3.** Los administradores crearán las salas y pasarán la información de las mismas (nombre y contraseña) por el discord de la FED.\n**4.** Las salas se lanzarán con los 10 primeros jugadores que entren. En caso de no haber jugadores disponibles para crear más salas, los jugadores que estén en espera tendrán prioridad en la nueva sala que se cree en detrimento de los jugadores que hayan jugado y ganado en la sala anterior."
+    },
+    "25" : {
+      "tags" : ["national","the national","tn"],
+      "title" : "The National",
+      "text" : "El The National es un campeonato por equipos, de una única edición ubicado en los últimos meses del año, y que tiene las siguientes consideraciones:\n**1.** Estructura de Clasificatorio Abierto y de Evento Principal dividido en Fase de Grupos y Fase de Eliminación.\n**2.** Los 8 equipos invitados serán aquellos con mejor puntuación dentro del Circuito Competitivo FED, ya fuesen por méritos del propio equipo o por los jugadores que los compongan."
+    },
+    "26" : {
+      "tags" : ["puntos"],
+      "title" : "Puntos Circuito Competitivo FED",
+      "text" : "Se creará un Ranking FED de equipos con la obtención de puntos por méritos competitivos (PC), que serán tanto para equipos como para jugadores federados.\nSiguiendo las siguientes tablas:\n\n__**Liga**__\n- **1ª**: 300,250,200,175,150,125,100,75\n- **2ª:** 100,90,80,70,60,50,35,25\n- **3ª:** 50,40,30,25,20,15,10,5,0\n\n__**Copa**__\n1º - 200, 2º - 150, 3º-4º - 100, 5º-8º - 50, 9º-16º - 25\n\n__**LIE**__\n1º - 50, 2º - 45, 3º-4º - 40, 5º-8º - 30, 9º-16º - 20, 17º-32º - 10, 33º-64º - 5,65º+ - 0\n\n__**The National**__\n1º - 500, 2º - 350, 3º - 250, 4º - 200,5º-6º - 150, 7º-8º - 100, 9º-12º - 75, 13º-16º - 50"
+    },
+    "27" : {
+      "tags" : ["otras competiciones"],
+      "title" : "Otras competiciones",
+      "text" : "La FED podrá determinar otorgar puntos a equipos y/o jugadores según sus resultados en competiciones ajenas a las organizadas por la propia administración.\nPara ello, y si así ocurriese, se realizaría un comunicado donde se detallaría la tabla de puntos utilizada y se actualizarían los puntos de cada equipo y jugador en el Ranking FED."
+    }
+  }
+}

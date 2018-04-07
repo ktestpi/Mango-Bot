@@ -1,0 +1,21 @@
+{
+  "name": "mango",
+  "version": "0.0.1",
+  "description": "Mango is a Discord bot for FED guild created by Desvelao^^",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Eris"
+  ],
+  "author": "Desvelao^^",
+  "license": "ISC",
+  "dependencies": {
+    "aghanim": "github:desvelao/aghanim#dev",
+    "erisjs-utils": "github:desvelao/erisjs-utils#dev",
+    "firebase-admin": "^5.11.0"
+  }
+}

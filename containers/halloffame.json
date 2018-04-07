@@ -1,0 +1,89 @@
+{
+  "2017" : {
+    "allstar" : {
+      "title" : "All-Star Weekend 2017", "thumbnail" : "https://pbs.twimg.com/media/DIupH3jW4AAMgDr.png",
+      "description" : "",
+      "fields" : [
+        {"name" : "Torneo 1v1", "value" : ":trophy: **MaSTeR-**, YuR1, gHn, WarMeN-, MoNsT3R, Godrik, Nuk4z0, Totoro", "inline" : false},
+        {"name" : "Fun Day", "value" : "Ability Draft + 10v10", "inline" : false},
+        {"name" : "Showmatch", "value" : "__Team Breo__ :trophy: \n**ZZLeyendaZZ**, **Erwin Rommel**, **Argoniur**, **Pikachu^**, **lavel**\n\n__Team Shinigami__\n**MaSTeR-**, **YuR1**, **WarMeN-**, **Pablick**, **Don Oppai**", "inline" : false}
+      ],
+      "footer" : {"text" : "8-10 septiembre 2017", "icon": "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg"},
+      "color" : "gold"
+    },
+    "liga1" : {
+      "title" : "Liga FED #1 2017", "thumbnail" : "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg",
+      "description" : "",
+      "fields" : [
+        {"name" : "1ª División", "value" : ":trophy: **Flash Strikers**", "inline" : true},
+        {"name" : "2ª División", "value" : ":trophy: **Disaster Team**", "inline" : true},
+        {"name" : "3ª División", "value" : ":trophy: **Los Tetelows**", "inline" : true}
+      ],
+      "footer" : {"text" : "31 enero - 22 marzo", "icon": "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg"},
+      "color" : "default"
+    },
+    "liga2" : {
+      "title" : "Liga FED #2 2017", "thumbnail" : "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg",
+      "description" : "",
+      "fields" : [
+        {"name" : "1ª División", "value" : ":trophy: **Totoros**", "inline" : true},
+        {"name" : "2ª División", "value" : ":trophy: **aZas**", "inline" : true},
+        {"name" : "3ªA División", "value" : ":trophy: **Low Priority Team**", "inline" : true},
+        {"name" : "3ªB División", "value" : ":trophy: **SMAUG**", "inline" : true}
+      ],
+      "footer" : {"text" : "27 agosto - 17 octubre", "icon": "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg"},
+      "color" : "default"
+    },
+    "copas" : {
+      "title" : "Copas 2017", "thumbnail" : "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg",
+      "description" : "",
+      "fields" : [
+        {"name" : "Summer Cup", "value" : ":trophy: **Los Tetelows** (19 junio - 26 junio)", "inline" : true},
+        {"name" : "TGX Copa FED", "value" : ":trophy: **Flash Strikers** (1 abril - 16 mayo)", "inline" : true}
+      ],
+      "footer" : {"text" : "2017", "icon": "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg"},
+      "color" : "default"
+    },
+    "thenational3" : {
+      "title" : "The National 3", "thumbnail" : "https://cdn.discordapp.com/attachments/354696405329117184/394300134005145601/YjM5PhrU_400x400.png",
+      "description" : "#Corsair #TGX",
+      "fields" : [
+        {"name" : "TN3", "value" : "**1º Unión Penosa** :trophy:\n2º Totoros\n3º Time Walkers\n4º TILT", "inline" : true},
+        {"name" : "Participantes", "value" : "Unión Penosa, TILT, Homerun Giant, Aogiri, Serranacles, TMT, Mithril, Tercios Viejos, Time Walkers, Totoros, Cavaliers eSports, Rock 'n' Rosh, Mortys, Disaster Team, -25MMR, DOTA2DPN", "inline" : false}
+      ],
+      "footer" : {"text" : "30 octubre - 23 diciembre", "icon": "https://cdn.discordapp.com/attachments/354696405329117184/394300134005145601/YjM5PhrU_400x400.png"},
+      "color" : "default"
+    },
+    "el-oraculo" : {
+      "title" : "El Oráculo", "thumbnail" : "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg",
+      "description" : "",
+      "fields" : [
+        {"name" : "TN3", "value" : "Standin[CAT].Orirencam - 33 predicciones", "inline" : true}
+      ],
+      "footer" : {"text" : "2017", "icon": "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg"},
+      "color" : "default"
+    }
+  },
+  "2018" : {
+    "liga1" : {
+      "title" : "Liga FED #1 2018", "thumbnail" : "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg",
+      "description" : "",
+      "fields" : [
+        {"name" : "1ª", "value" : ":trophy: **Fluffy Cats**", "inline" : true},
+        {"name" : "2ªA", "value" : ":trophy: **FED in 2k29**", "inline" : true},
+        {"name" : "2ªB", "value" : ":trophy: **New Cheddars**", "inline" : true}
+      ],
+      "footer" : {"text" : "15 enero - 4 marzo", "icon": "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg"},
+      "color" : "default"
+    },
+    "el-oraculo" : {
+      "title" : "El Oráculo", "thumbnail" : "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg",
+      "description" : "",
+      "fields" : [
+        {"name" : "Liga #1", "value" : "<NOMBRE GANADOR> - <PREDICCIONES> predicciones", "inline" : true}
+      ],
+      "footer" : {"text" : "2018", "icon": "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg"},
+      "color" : "default"
+    }
+  }
+}

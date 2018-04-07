@@ -1,0 +1,39 @@
+{
+  "admins" : { "title" : "Amins", "description" : "", "thumbnail" : "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg",
+    "fields" : [
+      {"name" : "Hosters", "value" : "[EarnilHD](http://steamcommunity.com/id/earnilHD/)\n\n[Shinigami](http://steamcommunity.com/id/adri0913/)\n\n[JairFit]()\n\n[ShoKster](http://steamcommunity.com/profiles/76561198178837319)\n\n[Desvelao^^](http://steamcommunity.com/profiles/76561198073106653)", "inline" : false}
+    ]
+  },
+  "liga" : { "title" : "Liga FED#2", "description" : "", "thumbnail" : "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg",
+    "fields" : [
+      {"name" : "División 1", "value" : "https://tgx.es/fedota2/tournament/fed-1-division-ligafed2/#/", "inline" : false},
+      {"name" : "División 2", "value" : "https://tgx.es/fedota2/tournament/fed-2-division-ligafed2/#/", "inline" : false},
+      {"name" : "División 3A", "value" : "https://tgx.es/fedota2/tournament/fed-3-division-a-ligafed2/#/", "inline" : false},
+      {"name" : "División 3B", "value" : "https://tgx.es/fedota2/tournament/fed-3-division-b-ligafed2/#/", "inline" : false}
+    ]
+  },
+  "liga1" : { "title" : "Liga FED 2 - División 1", "description" : "", "thumbnail" : "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg",
+    "fields" : [
+      {"name" : "Enlace", "value" : "https://tgx.es/fedota2/tournament/fed-1-division-ligafed2/#/", "inline" : false},
+      {"name" : "Equipos", "value" : "[Flash Strikers](https://twitter.com/FlashStrikers), [Unión Penosa](https://twitter.com/Unidosypenosos), Totoros, [TMT](https://twitter.com/TMT_dota), [Titanic Penguins](https://twitter.com/TPenguinsD2), [Disaster Team](https://twitter.com/DisasterDota), [Kaotic Team](https://twitter.com/Kaotik_Team), [Stray Dogs](https://twitter.com/Stray_DogsDOTA)", "inline" : false}
+    ]
+  },
+  "liga2" : { "title" : "Liga FED 2 - División 2", "description" : "", "thumbnail" : "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg",
+    "fields" : [
+      {"name" : "Enlace", "value" : "https://tgx.es/fedota2/tournament/fed-2-division-ligafed2/#/", "inline" : false},
+      {"name" : "Equipos", "value" : "[Azas](https://twitter.com/AzasClub), Cryers Style, [Mangos Colados](https://twitter.com/MangosColados), EMO, Come To Papa, [Friends For Fun](https://twitter.com/FFFriendsforfun), Mithrill, [-25MMR](https://twitter.com/_25MMR)", "inline" : false}
+    ]
+  },
+  "liga3a" : { "title" : "Liga FED 2 - División 3 Grupo A", "description" : "", "thumbnail" : "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg",
+    "fields" : [
+      {"name" : "Enlace", "value" : "https://tgx.es/fedota2/tournament/fed-3-division-a-ligafed2/#/", "inline" : false},
+      {"name" : "Equipos", "value" : "[TiTs](https://twitter.com/TiTsdota), Never Give Up, [Bloodlust](https://twitter.com/__BloodLust__), Low Priority Team, LyCanZ, HKT Returns, Imperial Esports, [Ineffable](https://twitter.com/IneffableGG), [Night Crawlers](https://twitter.com/teamcrawlers), Aogiri, [Clan All Star](https://twitter.com/Clan_All_STars)", "inline" : false}
+    ]
+  },
+  "liga3b" : { "title" : "Liga FED 2 - División 3 Grupo B", "description" : "", "thumbnail" : "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg",
+    "fields" : [
+      {"name" : "Enlace", "value" : "https://tgx.es/fedota2/tournament/fed-3-division-b-ligafed2/#/", "inline" : false},
+      {"name" : "Equipos", "value" : "Serranacles, Smaug, Dark Owlets Team, Dota2PN, Última Hora, UltraNoobs, [Mirana Linkens](https://twitter.com/MiranaLinkens), Los Parguelillas, Bots, Kill With Skill", "inline" : false}
+    ]
+  }
+}

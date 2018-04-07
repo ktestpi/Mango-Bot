@@ -1,0 +1,91 @@
+{
+  "bot" : {"name" : "Mango", "id" : "332020943322873856", "icon" : ""},
+  "setup" : {
+    "prefix" : "m!",
+    "helpMessage" : ":information_source: __**Ayuda de Mango**__",
+    "helpDM" : true,
+    "helpMessageAferCategories" : "**Nota**: Usa `m!help <categoría>` para los comandos de esa categoría."
+  },
+  "logger" : {
+    "memberout" : {"icon" : "📤", "color" : "magenta"},
+    "memberin" : {"icon" : "📥", "color" : "magenta"},
+    "bot" : {"icon" : "🤖", "color" : "magenta"},
+    "accountnew" : {"icon" : "🤖📥", "color" : "magenta"},
+    "accountmodify" : {"icon" : "🤖📝", "color" : "magenta"},
+    "accountremove" : {"icon" : "🤖📤", "color" : "magenta"},
+    "guildnew" : {"icon" : "👥📥", "color" : "magenta"},
+    "guildremove" : {"icon" : "👥📤", "color" : "magenta"},
+    "oderror" : {"icon" : "🎮❌", "color" : "error"},
+    "feed" : {"icon" : "📰", "color" : "magenta"},
+    "notifications" : {"icon" : "🔔", "color" : "magenta"},
+    "shout" : {"icon" : "📢", "color" : "magenta"},
+    "game" : {"icon" : "🎮", "color" : "magenta"},
+    "errorrecluta" : {"icon" : "❌👥", "color" : "magenta"}
+  },
+  "server" : "",
+  "prefix" : "m!",
+  "version" : "0.01",
+  "update" : "09/11/2017",
+  "author" : {"name" : "Desvelao^^", "id" : "189996884322942976", "icon" : "https://cdn.discordapp.com/avatars/189996884322942976/afb453f7c9b990caf3d94fa103c28438.jpg?size=128"},
+  "color" : "#AE0001",
+  "colors" : { "default" : "#AE0001" , "gold" : "#ffd700"},
+  "playing" : "m!help",
+  "invite" : "",
+  "emojis" : {
+    "default" : {
+      "accept" : "✅",
+      "error" : "❌",
+      "pin" : "📌",
+      "hoster" : "🎟",
+      "notification" : "🔔",
+      "envelopeIncoming" : "📨",
+      "test" : "0⃣"
+    },
+    "fed" : {
+    },
+    "bot" : {
+    }
+  },
+  "guild" : {"id" : "250957055014338560", "text" : {"reclutamiento" : "269596740569530371", "anuncios" : "283279792155918337", "normas" : "275599447612981248", "mensajeria" : "361528838468927490", "lieupload" : "396106098873991180", "hoster_chat" : "400714747537784843", "lie_announce" : "281808438609182720"},"voice" : {"lieSala1" : "396106242306736139","lieSala2" : "330693147355119628", "lieWaitRoom" : "396106242306736139", "taberna" : "250957055014338561"}},
+  "guildBot" : {"id" : "332023803691532289", "logger" : "418196389592301590"},
+  "announceLie" : {"time" : 15, "keyword" : "#lie", "tomorrow" : "mañana", "separator" : ":", "separatorH" : "h", "msg" : "<emoji_lie> :loudspeaker: La LIE empieza en <time> minutos. Id pillando sitio en la Sala de espera LIE! @everyone", "msgConfirm" : "**#lie**\n:alarm_clock: **<hour>**\n:bell: **<announce>**", "waitConfirm" : 8000 , "lieVRoomOpened" : "<emoji_lie> :loudspeaker: ¡LIE- Sala de espera está abierta!", "lieVRoomClosed" : "<emoji_lie> :loudspeaker: :x: ¡LIE- Sala de espera está cerrada!", "silence" : "s"},
+  "newMember" : {"msg" : "**¡Bienvenid@ al Discord de la FED <emoji_logofed> , <member>!**\n\nPara poder hacer uso de todas las funcionalidades debes tener tu **cuenta verificada por email** y poseer la etiqueta de **Federad@**. Para ésto debes hablar con un <admin>. Mientras tanto puedes echarle un vistazo a las breves <rules> del servidor.\n\n¡GL & HF!","msgnoadminmention" : "**¡Bienvenid@ al Discord de la FED <emoji_logofed> , <member>!** Echa un vistazo a las <rules> del servidor. ¡GL & HF!"},
+  "reclutamiento" : {
+    "template" : ["```Jugador/a buscando equipo\\nRol/roles:(.*)\\nMedalla:(.*)\\nHorarios:(.*)\\nDotabuff:(.*)\\nSteamID:(.*)```","```(.*) buscando jugador/a\\nRol/roles:(.*)\\nMedalla:(.*)\\nHorarios de entrenamiento:(.*)\\nSteamID:(.*)```"],
+    "msgError" : "Tu mensaje **no es válido**.\n\nPara publicar un mensaje en este canal, **necesitas empezar y terminar** el mensaje con estas 3 comillas **:arrow_right: ``` :arrow_left:** y seguir una de las dos plantillas. **Cópialas y pégalas al escribir tu mensaje y rellena los campos, deja sin rellenar los que no necesites**.\n\n:tv: Videotutorial por Darth Vader: https://youtu.be/8llbDcw_zwI?t=88\n\n:x: **Los mensajes que no sigan estas condiciones se eliminarán.**\n\n:pencil: __**Plantillas**__\n\nSi eres un/a **jugador/a que busca equipo**:\n```Jugador/a buscando equipo\nRol/roles:\nMedalla:\nHorarios:\nDotabuff:\nSteamID:```\n\nSi un **equipo busca a un/a jugador/a** (sustituye <Equipo> por el nombre del equipo): ```<Equipo> buscando jugador/a\nRol/roles:\nMedalla:\nHorarios de entrenamiento:\nSteamID:```",
+    "waitTimeError" : 300,
+    "videolink" : "https://youtu.be/8llbDcw_zwI",
+    "videolinkmin" : "https://youtu.be/8llbDcw_zwI?t=88",
+    "videoauthor" : "Dark Vader (The Joker)",
+    "emojis" : "<emoji_logofed> <emoji_angrypepe> <emoji_gabenface> <emoji_babyrage> <emoji_4head> <emoji_elegiggle>"
+  },
+  "intercambios" : {
+    "template" : "🇭 (.*)\\n🇼 (.*)",
+    "msgError" : "Tu mensaje **no es válido**.\n\nPara publicar un intercambio, copia y pega la plantilla y rellénala.\n**Nota:** suprime *<tengo>* *<quiero>*.\n\n:x: **Los mensajes que no sigan estas condiciones se eliminarán.**\n\n:pencil: __**Plantilla**__\n\n```:regional_indicator_h: <tengo>\n:regional_indicator_w: <quiero>```\n\n",
+    "waitTimeError" : 300
+  },
+  "lie" : {
+    "game_name" : "FED - LIE",
+    "pass_key" : "fedlie",
+    "waittimeCreate" : 0.25,
+    "waittimeMsgLobbyPass" : 0.1
+  },
+  "vote" : {
+    "optionsText" : [":one:",":two:",":three:",":four:",":five:",":six:",":seven:",":eight:",":nine:",":zero:"],
+    "emojis" : {"start" : "🚩", "close" : "⛔", "finish" : "✅", "options" : ["1⃣","2⃣","3⃣","4⃣","5⃣","6⃣","7⃣","8⃣","9⃣","0⃣"], "winner" : ["🇦","🇧","🇨","🇩","🇪","🇫","🇬","🇭","🇮","🇯"]},
+    "roles" : ["admins","vote"],
+    "maxoptions" : 10
+  },
+  "switches" : {"welcome" : true, "giveRoleNewMember" : true, "kickVoiceChannelLIE" : false, "wrongCmd" : false, "backupdb" : false},
+  "ready" : {"msg" : "Doy: + 1 Regeneración de vida , + 150 Maná restaurado", "channel" : "250957055014338560", "server" : "332023803691532289", "backupDB" : "396147345814847508"},
+  "help" : {"help" : ":information_source: Comandos de **Mango**", "helpNote" : "**Nota:** [argumento opcional] <argumento obligatorio> |lista de opciones|"},
+  "constants" : { "waitToDelMsg" : 5000, "remindListMaxItems" : 10, "remindLimitItems" : 4, "oracleTop" : 20},
+  "cmds" : {},
+  "channels" : {},
+  "guildID" : "250957055014338560",
+  "roles" : {"admin" : "admins" , "federado" : "federad@" , "roll" : "roll", "lie" : "lie", "mensajeria" : "mensajeria", "directiva" : "directiva", "adminn" : "admin", "teams": ["Totoros","Tits"]},
+  "img" : {"logofed" : "https://pbs.twimg.com/profile_images/814270207732645888/5Fyy29mA_400x400.jpg", "ligafed" : "https://cdn.discordapp.com/attachments/354696405329117184/400499684583538688/ligafed3_255x101.png", "season" : "http://www.fedota2.es/content/img/temp/20171218003705-photo5879669967933254734jpg.jpg"},
+  "linksbase" : {"twitter" : "https://twitter.com/", "discord" : "https://discord.gg/"},
+  "links" : {"liga1" : "https://tgx.es/fedota2/tournament/fed-1-division-ligafed3/#/", "liga2a" : "https://tgx.es/fedota2/tournament/fed-2-division-a-ligafed3/", "liga2b" : "https://tgx.es/fedota2/tournament/fed-2-division-b-ligafed3/", "lie" : "https://desvelao.github.io/mangolie/", "ticketliga" : "https://www.dotabuff.com/esports/leagues/9650-liga-fed-temporada-3", "ticketlie" : "https://www.dotabuff.com/esports/leagues/9655-lie-fed-temporada-1", "discord" : "https://discord.gg/K5krgBg", "email" : "info@fedota2.es", "web" : "http://www.fedota2.es", "webold" : "http://m.fedota2.es", "twitch" : "https://www.twitch.tv/fedota2", "youtube" : "https://www.youtube.com/channel/UC5g2LMG99F_IOrYrX8wTsVQ", "twitter" : "https://twitter.com/fedota2", "thenational" : "https://tgx.es/TheNational/tournament/corsairtn3-mainevent/#/groups", "tgx" : "https://tgx.es/fedota2", "doc" : "https://docs.google.com/document/d/12vitCI6da6w2G7TPHLfnOCTs3Elo4OPNeFRdAbRQzP8/edit?usp=drivesdk", "calendarweb" : "https://calendar.google.com/calendar/embed?src=qpu5b4nbgmvfvrpc23fs6o261g%40group.calendar.google.com&ctz=Europe%2FMadrid", "calendarapp" : "https://calendar.google.com/calendar/ical/qpu5b4nbgmvfvrpc23fs6o261g%40group.calendar.google.com/public/basic.ics", "points" : "https://docs.google.com/spreadsheets/d/1FzgR8MaBdudPEz1fAZcL-ISK9tVuQ-Vk7Q_xY9oxiUo/edit"},
+  "msg" : {"cmds" : "Comandos:"}
+}
