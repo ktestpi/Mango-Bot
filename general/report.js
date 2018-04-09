@@ -4,7 +4,7 @@ const util = require('erisjs-utils')
 const lang = require('../lang.json')
 
 module.exports = new Command('report',{
-  category : 'General', help : 'Invitación de Twitter', args : ''},
+  category : 'General', help : 'Invitación de Twitter', args : '<mensaje>'},
   function(msg, args, command){
     let self = this
     const content = args.from(1);

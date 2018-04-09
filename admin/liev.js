@@ -4,7 +4,7 @@ const util = require('erisjs-utils')
 const lang = require('../lang.json')
 
 module.exports = new Command('liev',{
-  category : 'Admin', help : 'Invitación de Twitter', args : '<open/close>', require : basic.guildFEDAdmin},
+  category : 'Admin', help : 'Abre/cierra la Lie - Sala de espera', args : '<open/close>', require : basic.guildFEDAdmin},
   function(msg, args, command){
     // let self = this
     const roles = util.guild.getRole(this.fed,this.config.roles.federado);

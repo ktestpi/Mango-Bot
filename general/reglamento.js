@@ -21,7 +21,7 @@ reglamento.articles = loadReglamento('../containers/reglamento.json');
 const reglamentoIndexed = loadIndexReglamento(reglamento.articles);
 
 module.exports = new Command('reglamento',{
-  category : 'General', help : 'Invitación de Twitter', args : ''},
+  category : 'General', help : 'Invitación de Twitter', args : '<categría>'},
   function(msg, args, command){
     // let self = this
     const query = args.from(1).toLowerCase();
