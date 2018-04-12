@@ -1,13 +1,13 @@
 const { Watcher } = require('aghanim')
 const util = require('erisjs-utils')
 const lang  = require('../lang.json')
+const basic = require('../helpers/basic')
 
 module.exports = new Watcher('','guildMemberAdd',{}, function(guild,member){
   // const self = this
   if(guild.id !== this.config.guild.id){return};
   this.logger.add('memberin',`**${member.username}**`,true);
   if(this.config.switches.welcome){
-    //console.log('Mention Admin', mentionAdmin,mentionAdmin.name);
     this.createMessage(guild.id,this.replace.do(this.config.newMember.msgnoadminmention,{member : member.mention,rules : '<#' + this.config.guild.text.normas + '>'},true))
     // const mentionAdmin = util.guild.getRole(guild,settings.roles.admin);
     // if(mentionAdmin){
