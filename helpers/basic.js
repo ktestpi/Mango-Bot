@@ -151,3 +151,11 @@ module.exports.profileReset = function(member){
 module.exports.profileResetBase = function(){
   return {username : "", avatar : "", lie : "", mangobets : "", dotaID : "", steamID : "", oracle : "", remember : ""}
 }
+
+module.exports.playerNameLinkDBS = function(player){
+  return `**${player.name}** ${util.md.link(util.dota.idToUrl(player._id,'dotabuff'),'DB')} ${util.steam.idToLink(player.steam,true,'S')}`
+}
+
+module.exports.teamManagerLink = function(bot,link){
+  return link ? `[${link}](${bot.config.links.tm})` : bot.config.links.tm
+}

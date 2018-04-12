@@ -2,7 +2,7 @@ const { Watcher } = require('aghanim')
 const util = require('erisjs-utils')
 const lang  = require('../lang.json')
 
-module.exports = new Watcher('','guildMemberAdd',{}, function(msg,args,command){
+module.exports = new Watcher('','guildMemberAdd',{}, function(guild,member){
   // const self = this
   if(guild.id !== this.config.guild.id){return};
   this.logger.add('memberin',`**${member.username}**`,true);

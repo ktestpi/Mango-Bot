@@ -142,7 +142,14 @@ bot.on('afterload', function(){
       basic.updateProfiles(bot,snap.profiles)
       // bot.cache.servers = new FirebaseCache(bot.db.child('servers'),snap.servers);
       // bot.cache.profiles = new FirebaseCache(bot.db.child('profiles'),Object.keys(snap.profiles).map(profile => [profile,snap.profiles[profile].profile]),'profile');
-
+      // const _keysPlayers = Object.keys(snap.tm.players)
+      // for (var i = 0; i < _keysPlayers.length; i++) {
+      //   snap.tm.players[_keysPlayers[i]].steam = util.steam.idToSteamID([_keysPlayers[i]])
+      // }
+      // bot.cache.players = new util.type.Collection(snap.tm.players)
+      // // console.log();
+      // // bot.cache.players = bot.cache.players.map(player => Object.assign({},player,{steam : util.steam.idToSteamID(player._id)}))
+      // bot.cache.teams = new util.type.Collection(snap.tm.teams)
       // console.log('CACHE DONE');
       // bot.cache.servers.modify('327603106257043456',{feeds : {enable : false}}).then((el) => console.log('MODIFIED',el))
       // console.log('leaderboard',bot.config.switches.leaderboardUpdate);
@@ -154,11 +161,37 @@ bot.on('afterload', function(){
   }
 })
 // console.log(bot.commands);
+bot.recacheTM = function(){
+  console.log('START RECHARGE');
+  return new Promise((resolve, reject) => {
+    this.db.child('tm').once('value').then(snap => {
+      if(!snap.exists()){return}
+      snap = snap.val()
+      const _keysPlayers = Object.keys(snap.players)
+      for (var i = 0; i < _keysPlayers.length; i++) {
+        snap.players[_keysPlayers[i]].steam = util.steam.idToSteamID([_keysPlayers[i]])
+      }
+      this.cache.players = new util.type.Collection(snap.players)
+      // console.log();
+      // bot.cache.players = bot.cache.players.map(player => Object.assign({},player,{steam : util.steam.idToSteamID(player._id)}))
+      this.cache.teams = new util.type.Collection(snap.teams)
+      console.log('RECACHED');
+      resolve()
+    }).catch(err => reject(err))
+  })
+}
+
 
 // var profiles = firebase.database().ref('profiles');
 bot.firebase = firebase;
 bot.db = firebase.database().ref();
 
+let STARTED = false
+bot.db.child('tm/ts').on('value', snap =>{
+  bot.recacheTM()
+  if(STARTED){bot.db.child('tm').update({tsm : Math.round(new Date().getTime()/1000)})}
+  STARTED = true
+})
 // bot.db.child('profiles').once('value').then(snap => {
 //   if(!snap.exists()){return}
 //   snap = snap.val()
