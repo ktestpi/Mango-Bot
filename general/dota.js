@@ -5,7 +5,7 @@ const lang = require('../lang.json')
 
 module.exports = new Command('dota',{
   subcommandFrom : "profile",
-  category : 'Perfil', help : 'Establece el dotaID', args : '[dotaID]', require : basic.isMember},
+  category : 'Perfil', help : 'Establece el dotaID', args : '[dotaID]', check : basic.isMember},
   function(msg, args, command){
     // let self = this
     let parsed = basic.parseProfile(args[2],'dota');

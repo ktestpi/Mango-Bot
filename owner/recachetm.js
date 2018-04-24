@@ -5,7 +5,7 @@ const lang = require('../lang.json')
 
 module.exports = new Command('rechargetm',{
   subcommandFrom : 'bot',
-  category : 'Owner', help : 'Recarga el Team Manager', args : '', require : basic.isOwner},
+  category : 'Owner', help : 'Recarga el Team Manager', args : '', check : basic.isOwner},
   function(msg, args, command){
     // this.db.once('value').then(snap => {
     //   if(!snap.exists()){return};

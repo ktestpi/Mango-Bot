@@ -6,7 +6,7 @@ const basic = require('../helpers/basic')
 
 module.exports = new Command('ranking',{
   subcommandFrom : "oracle",
-  category : 'Admin', help : 'Ve el ranking de El Oráculo (Top 20)', args : '', rolesCanUse : basic.adminRole, require : basic.guildFEDCommand},
+  category : 'Admin', help : 'Ve el ranking de El Oráculo (Top 20)', args : '', rolesCanUse : basic.adminRole, check : basic.guildFEDCommand},
   function(msg, args, command){
     let self = this
     this.db.child('profiles').once('value').then((snap) => {

@@ -5,7 +5,7 @@ const lang = require('../lang.json')
 const basic = require('../helpers/basic')
 
 module.exports = new Command('cleanmensajeria',{
-  category : 'Admin', help : 'Elimina a todos los usuarios con el rol de **Mensajería**', args : '', require : basic.guildFEDAdmin},
+  category : 'Admin', help : 'Elimina a todos los usuarios con el rol de **Mensajería**', args : '', check : basic.guildFEDAdmin},
   function(msg, args, command){
     let self = this
     const guild = this.fed;

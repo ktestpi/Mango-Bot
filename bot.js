@@ -51,7 +51,7 @@ firebase.initializeApp({
   databaseURL: "https://mango-bot.firebaseio.com"
 });
 
-const bot = new Aghanim(Object.assign({token : TOKEN},CONFIG.setup))
+const bot = new Aghanim(TOKEN,CONFIG.setup)
 bot.config = CONFIG
 bot.config.colors.palette = {default : CONFIG.color}
 bot.envprod = ENVPROD

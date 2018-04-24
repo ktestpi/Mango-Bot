@@ -5,7 +5,7 @@ const lang = require('../lang.json')
 
 module.exports = new Command('profileupdate',{
   subcommandFrom : "admin",
-  category : 'Admin', help : 'Invitación de Twitter', args : '', require : basic.guildFEDAdmin},
+  category : 'Admin', help : 'Invitación de Twitter', args : '', check : basic.guildFEDAdmin},
   function(msg, args, command){
     let self = this
     if(!isNaN(args[2])){basic.profileCheck(args[2],this)};

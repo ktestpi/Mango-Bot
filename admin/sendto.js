@@ -4,7 +4,7 @@ const util = require('erisjs-utils')
 const lang = require('../lang.json')
 
 module.exports = new Command('sendto',{
-  category : 'Admin', help : 'Envía un mensaje a los miembros con un rol', args : '<mención rol/es> "mensaje"', require : basic.guildFEDAdmin},
+  category : 'Admin', help : 'Envía un mensaje a los miembros con un rol', args : '<mención rol/es> "mensaje"', check : basic.guildFEDAdmin},
   function(msg, args, command){
     let self = this
     let content = msg.content.match(/"[^"]+"/g);

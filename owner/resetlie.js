@@ -5,7 +5,7 @@ const lang = require('../lang.json')
 
 module.exports = new Command('resetlie',{
   subcommandFrom : 'bot',
-  category : 'Owner', help : 'Resetea las puntuaciones de la LIE', args : '', require : basic.isOwner},
+  category : 'Owner', help : 'Resetea las puntuaciones de la LIE', args : '', check : basic.isOwner},
   function(msg, args, command){
     this.db.child('profiles').once('value').then((snap) => {
       if(!snap.exists()){return};

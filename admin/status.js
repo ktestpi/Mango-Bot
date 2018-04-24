@@ -5,7 +5,7 @@ const lang = require('../lang.json')
 
 module.exports = new Command('status',{
   subcommandFrom : "admin",
-  category : 'Admin', help : 'Coloca el estado del bot', args : '', require : basic.guildFEDAdmin},
+  category : 'Admin', help : 'Coloca el estado del bot', args : '', check : basic.guildFEDAdmin},
   function(msg, args, command){
     let self = this
     if(['online','idle','dnd','invisible'].indexOf(args[2]) > -1){

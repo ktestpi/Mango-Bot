@@ -6,7 +6,7 @@ const basic = require('../helpers/basic')
 
 module.exports = new Command('leyend',{
   subcommandFrom : "oracle",
-  category : 'Admin', help : 'Ve la leyenda del comando', args : '', rolesCanUse : basic.adminRole, require : basic.guildFEDCommand},
+  category : 'Admin', help : 'Ve la leyenda del comando', args : '', rolesCanUse : basic.adminRole, check : basic.guildFEDCommand},
   function(msg, args, command){
     let self = this
     msg.author.getDMChannel().then(channel => {

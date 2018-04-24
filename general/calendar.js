@@ -4,7 +4,7 @@ const util = require('erisjs-utils')
 const lang = require('../lang.json')
 
 module.exports = new Command('calendar',{
-  category : 'General', help : 'Calendario', args : ''},
+  category : 'General', help : 'Calendario', args : '', enable : false},
   function(msg, args, command){
     let self = this
     msg.reply(this.replace.do('calendarLink'))

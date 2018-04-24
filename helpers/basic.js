@@ -7,6 +7,7 @@ module.exports.guildFEDCommand = function(msg,args,command){
   return msg.channel.guild && msg.channel.guild.id === this.config.guild.id
 }
 
+
 module.exports.guildFEDAdmin = function(msg,args,command){
   const guild = this.guilds.get(this.config.guild.id)
   const member = guild.members.get(msg.author.id)

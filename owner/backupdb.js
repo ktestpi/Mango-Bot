@@ -5,7 +5,7 @@ const lang = require('../lang.json')
 
 module.exports = new Command('backupdb',{
   subcommandFrom : 'bot',
-  category : 'Owner', help : 'Realiza una copia de seguridad de la DB', args : '', require : basic.isOwner},
+  category : 'Owner', help : 'Realiza una copia de seguridad de la DB', args : '', check : basic.isOwner},
   function(msg, args, command){
     // this.db.once('value').then(snap => {
     //   if(!snap.exists()){return};
