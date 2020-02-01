@@ -70,10 +70,6 @@ bot.defineCategories([{name : 'General', help : 'Ayuda de general'},
 bot.addCommandDir(path.join(__dirname,'general'))
 bot.addCommandDir(path.join(__dirname,'admin'))
 bot.addCommandDir(path.join(__dirname,'owner'))
-// bot.addCommandDir(path.join(__dirname,'general'))
-// bot.addCommandDir(path.join(__dirname,'fun'))
-// bot.addCommandDir(path.join(__dirname,'bot'))
-// bot.addCommandDir(path.join(__dirname,'dota2'))
 
 bot.addWatcherDir(path.join(__dirname,'watchers'))
 // bot.addCommandDir(path.join(__dirname, 'subcommands'))
@@ -110,10 +106,7 @@ bot.on('postready',() => {
   bot.logger = new util.helper.Logger(
     bot.guilds.get(bot.config.guildBot.id).channels.get(bot.config.guildBot.logger),
     Object.assign({},{name : 'Mango', title : 'Notificaciones', color : bot.config.color},{events : CONFIG.logger}), 10);
-  // bot.logger.log('memberin','Hi')
-  // bot.logger.log('oderror','Bye')
-  // bot.logger.log('oderror','Bye')
-  // bot.logger.log('memberin','Hi')
+  
   bot.db.child('bot').once('value').then(snap => {
     if(!snap.exists()){return}else{snap = snap.val()}
     bot.config.switches = snap.switches
